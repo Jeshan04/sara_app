@@ -1,0 +1,50 @@
+name: pangea
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.4.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  wifi_iot: ^0.3.19
+  network_info_plus: ^5.0.2
+  permission_handler: ^11.3.1
+  connectivity_plus: ^6.1.0
+  flutter_blue_plus: 1.16.0
+  file_picker: ^8.1.7
+  cupertino_icons: ^1.0.8
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.1
+  cloud_firestore: ^5.4.4
+  shared_preferences: ^2.3.2
+  image_picker: ^1.1.2
+  firebase_storage: ^12.3.4
+  toastification: ^2.3.0
+  fl_chart: 0.63.0
+  http: ^1.2.0
+  esp_smartconfig: ^2.0.0
+  wifi_scan: ^0.4.0+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/assets/images/logo1.png
+    - lib/assets/images/logo2.png
+    - lib/assets/images/disposable.png
+    - lib/assets/images/sleeve.png
+    - lib/assets/images/ballet.gif
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  remove_alpha_ios: true
+  image_path: "lib/assets/images/logo2.png"
